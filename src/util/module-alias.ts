@@ -1,8 +1,7 @@
-_
+import moduleAlias = require('module-alias');
 import * as path from 'path';
-import module-alias from 'module-alias';
 
-const files = path.resolve(_dirname,'../..');
+const files = path.resolve(__dirname,'../..');
 
 moduleAlias.addAliases({
 	'@src': path.join(files, 'src'),

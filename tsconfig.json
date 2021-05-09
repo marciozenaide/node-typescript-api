@@ -1,4 +1,3 @@
-_
 {
 "compileOptions":{
   "target": "es2019",
@@ -29,13 +28,13 @@ _
   ],
   "experimentalDecorators": true,
   "emitDecoratorMetadata": true,
-},
-"include": [
-	"./src/**/*.ts",
-	"./test/**/*.ts"
-],
-"exclude":[
-	"./node_modules/*",
-	"dist"
-]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./test/**/*.ts"
+  ],
+  "exclude":[
+    "./node_modules/*",
+    "dist"
+  ]
 }
